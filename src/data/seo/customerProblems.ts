@@ -1,0 +1,61 @@
+export interface CustomerProblem {
+  n: number;
+  problem: string;
+  need: string;
+  moat: string;
+  query: string;
+  pages: string[];
+}
+
+export const CUSTOMER_PROBLEMS: CustomerProblem[] = [
+  { n: 1, problem: "No time to post consistently", need: "Reliable execution without their involvement", moat: "Done-for-you + reliable weekly turnaround", query: "how much time does social media take a small business", pages: ["R", "H"] },
+  { n: 2, problem: "Don't know what to post", need: "Ideas and a plan", moat: "Content strategy included in every plan", query: "what should I post on social media for my business", pages: ["R", "C"] },
+  { n: 3, problem: "Posting randomly, not growing", need: "A consistent system", moat: "Weekly cadence + strategy", query: "why is my business not growing on social media", pages: ["C", "R"] },
+  { n: 4, problem: "Agencies are too expensive", need: "Pro results at a small-biz price", moat: "$99 starting price", query: "why is social media management so expensive", pages: ["R", "C"] },
+  { n: 5, problem: "Can't afford a full-time social media manager", need: "Affordable alternative to hiring", moat: "Monthly subscription, no salary", query: "cost of social media manager vs agency", pages: ["R", "C"] },
+  { n: 6, problem: "Locked into a long agency contract", need: "Flexibility to leave anytime", moat: "Month-to-month, cancel anytime", query: "social media management no contract", pages: ["R"] },
+  { n: 7, problem: "Freelancer ghosted / disappeared", need: "A dependable managed team", moat: "Managed team + turnaround reliability", query: "freelancer vs agency social media reliability", pages: ["C"] },
+  { n: 8, problem: "Content doesn't match my brand", need: "On-brand, tailored content", moat: "Custom per brand, no templates", query: "social media content that matches my brand", pages: ["R"] },
+  { n: 9, problem: "Agency used generic templated content", need: "Original, tailored work", moat: "Tailored content, review-before-publish", query: "generic social media content problem", pages: ["C", "R"] },
+  { n: 10, problem: "Buffer/Hootsuite only schedule — I still make it all", need: "Someone to CREATE the content", moat: "Done-for-you creation, not just scheduling", query: "does Buffer create content or just schedule", pages: ["C", "R"] },
+  { n: 11, problem: "Reels take too long to make", need: "Video handled for me", moat: "Short-form video service included", query: "how to make reels faster for business", pages: ["C"] },
+  { n: 12, problem: "Camera-shy / can't film myself", need: "Content without being on camera", moat: "Graphics + faceless editing", query: "faceless social media content ideas", pages: ["C"] },
+  { n: 13, problem: "Inconsistent posting hurts credibility", need: "Steady professional presence", moat: "Weekly delivery + brand consistency", query: "why consistency matters on social media", pages: ["R", "H"] },
+  { n: 14, problem: "Tried DIY and burned out", need: "Offload the whole workload", moat: "Done-for-you end to end", query: "doing my own social media is exhausting", pages: ["C", "R"] },
+  { n: 15, problem: "Don't understand analytics", need: "Clear reporting", moat: "Weekly report (Premium)", query: "how to read social media analytics", pages: ["R"] },
+  { n: 16, problem: "Setup/onboarding fees are a barrier", need: "No upfront cost", moat: "No setup fee", query: "social media management no setup fee", pages: ["R", "H"] },
+  { n: 17, problem: "Scared of being stuck if it doesn't work", need: "Low-risk trial", moat: "7-day money-back + cancel anytime", query: "risk-free social media management trial", pages: ["R"] },
+  { n: 18, problem: "Want to approve content before it's live", need: "Control over output", moat: "Review-before-publish", query: "can I approve posts before they go live", pages: ["R"] },
+  { n: 19, problem: "Need a plan, not just scheduling", need: "Strategy layer", moat: "Content strategy in package", query: "social media strategy for small business", pages: ["C", "R"] },
+  { n: 20, problem: "Small budget, big expectations", need: "Maximum value per dollar", moat: "$99 tier + clear deliverables", query: "best value social media management", pages: ["R"] },
+  { n: 21, problem: "Too many platforms to manage", need: "One team handling all", moat: "Multi-platform management", query: "manage instagram facebook linkedin together", pages: ["H"] },
+  { n: 22, problem: "Competitors are outposting me", need: "Higher content volume + cadence", moat: "Standard/Premium volume tiers", query: "how to out-post competitors on social", pages: ["C"] },
+  { n: 23, problem: "Reels/Shorts/TikTok feel like a different skill", need: "Specialist video help", moat: "Dedicated short-form video service", query: "who makes short form videos for businesses", pages: ["H", "C"] },
+  { n: 24, problem: "Paying for a tool AND spending my time", need: "Replace both cost + time", moat: "DFY replaces tool + labor", query: "tool cost plus my time social media", pages: ["C", "R"] },
+  { n: 25, problem: "My posts look unprofessional", need: "Polished design", moat: "Professional creative execution", query: "how to make my posts look professional", pages: ["R"] },
+  { n: 26, problem: "No captions/copywriting skills", need: "Copy handled", moat: "Captions included", query: "who writes my social media captions", pages: ["R"] },
+  { n: 27, problem: "Can't keep up during busy season", need: "Reliability under pressure", moat: "Managed turnaround", query: "social media help during busy season", pages: ["R"] },
+  { n: 28, problem: "Med spa needs on-brand, compliant aesthetic", need: "Niche-aware content", moat: "Tailored, niche experience", query: "social media for med spa best practices", pages: ["R"] },
+  { n: 29, problem: "Restaurant needs daily specials posted", need: "Timely daily cadence", moat: "Scheduling + turnaround", query: "restaurant social media posting schedule", pages: ["R", "C"] },
+  { n: 30, problem: "Bar events need timely promotion", need: "Fast, reliable posting", moat: "Managed scheduling", query: "how to promote bar events on social media", pages: ["R"] },
+  { n: 31, problem: "Pet grooming wants great before/afters", need: "Editing that sells the work", moat: "Video + graphic editing", query: "pet grooming social media content ideas", pages: ["R"] },
+  { n: 32, problem: "Agencies require big retainers", need: "Flat, small price", moat: "Flat $99-299 tiers", query: "social media agency retainer too high", pages: ["R", "C"] },
+  { n: 33, problem: "Don't want an annual commitment", need: "Month-to-month freedom", moat: "Cancel anytime", query: "monthly social media management no annual contract", pages: ["R"] },
+  { n: 34, problem: "Unsure which plan fits", need: "Clear tiered choice", moat: "Basic/Standard/Premium clarity", query: "which social media plan do I need", pages: ["R", "H"] },
+  { n: 35, problem: "Want to test before committing", need: "Try before buy", moat: "Free trial / money-back", query: "try social media management before paying", pages: ["R", "H"] },
+  { n: 36, problem: "Revisions cost extra elsewhere", need: "Included changes", moat: "Revisions included (up to unlimited)", query: "do social media services charge for revisions", pages: ["R"] },
+  { n: 37, problem: "AI content feels generic/soulless", need: "Human, authentic content", moat: "Human team + tailored", query: "AI vs human social media content quality", pages: ["C", "R"] },
+  { n: 38, problem: "Not enough leads from social", need: "Content that converts", moat: "Conversion-focused creative", query: "how to get leads from social media", pages: ["C", "R"] },
+  { n: 39, problem: "Brand voice inconsistent across posts", need: "Unified voice", moat: "Brand consistency", query: "keep brand voice consistent on social", pages: ["R"] },
+  { n: 40, problem: "Need a website too, not just posts", need: "One vendor for both", moat: "Website service (bundle)", query: "social media and website in one service", pages: ["H", "C"] },
+  { n: 41, problem: "Overwhelmed by the content calendar", need: "Calendar handled", moat: "Scheduling + strategy", query: "social media content calendar help", pages: ["R", "H"] },
+  { n: 42, problem: "Freelancer quality was inconsistent", need: "Consistent managed quality", moat: "Managed team QA", query: "inconsistent freelancer social media quality", pages: ["C"] },
+  { n: 43, problem: "Hard to find affordable service that also does video", need: "Bundled SMM + video", moat: "SMM + short-form video combined", query: "affordable service that makes social videos", pages: ["C", "R"] },
+  { n: 44, problem: "Worried about hidden costs", need: "Transparent pricing", moat: "Flat pricing, no hidden fees", query: "social media management hidden fees", pages: ["R"] },
+  { n: 45, problem: "Can't scale content without hiring", need: "Scale via tiers", moat: "Subscription scales up", query: "scale social media content without hiring", pages: ["C"] },
+  { n: 46, problem: "Posting stops when I get busy", need: "Always-on reliability", moat: "Managed, always-on delivery", query: "my social media posting is inconsistent", pages: ["R"] },
+  { n: 47, problem: "Don't know competitors' strategy", need: "Competitive insight", moat: "Competitor analysis (Premium)", query: "how to analyze competitor social media", pages: ["C"] },
+  { n: 48, problem: "Want proof it works before full payment", need: "De-risked start", moat: "7-day risk-free", query: "is social media management worth the money", pages: ["R"] },
+  { n: 49, problem: "Skeptical of cheap-service quality", need: "Evidence of quality", moat: "Real reviews + before/after work", query: "are cheap social media services any good", pages: ["R", "C"] },
+  { n: 50, problem: "Confused: use a tool or a service?", need: "Clear decision help", moat: "Comparison content answers it", query: "social media tool vs service which to choose", pages: ["C", "R"] },
+];

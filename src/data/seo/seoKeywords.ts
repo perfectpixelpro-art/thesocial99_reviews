@@ -1,0 +1,73 @@
+export interface SeoKeyword {
+  n: number;
+  keyword: string;
+  bucket: "Evergreen" | "Trending" | "Volume";
+  intent: string;
+  pages: string[]; // H = Home, R = Review, C = Comparison
+  niche: string;
+  priority: "High" | "Med" | "Low";
+  notes: string | null;
+}
+
+export const SEO_KEYWORDS: SeoKeyword[] = [
+  { n: 1, keyword: "social media management for small business", bucket: "Evergreen", intent: "Comm", pages: ["H", "R"], niche: "Broad", priority: "High", notes: "Category anchor. Own this on Home." },
+  { n: 2, keyword: "affordable social media management", bucket: "Evergreen", intent: "Comm", pages: ["H", "R"], niche: "Broad", priority: "High", notes: "Core positioning term." },
+  { n: 3, keyword: "social media management services", bucket: "Evergreen", intent: "Comm", pages: ["H"], niche: "Broad", priority: "High", notes: "Head term; support with clusters." },
+  { n: 4, keyword: "done for you social media management", bucket: "Evergreen", intent: "Comm", pages: ["H", "C"], niche: "Broad", priority: "High", notes: "The wedge vs SaaS tools." },
+  { n: 5, keyword: "small business social media management", bucket: "Evergreen", intent: "Comm", pages: ["H"], niche: "Broad", priority: "High", notes: null },
+  { n: 6, keyword: "social media management pricing", bucket: "Evergreen", intent: "Comm", pages: ["R", "H"], niche: "Broad", priority: "High", notes: "Pair with transparent $99-299 table." },
+  { n: 7, keyword: "how much does social media management cost", bucket: "Evergreen", intent: "Info", pages: ["R", "C"], niche: "Broad", priority: "High", notes: "Featured-snippet target; answer-first." },
+  { n: 8, keyword: "monthly social media management packages", bucket: "Evergreen", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Med", notes: null },
+  { n: 9, keyword: "social media management company", bucket: "Evergreen", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Med", notes: null },
+  { n: 10, keyword: "outsource social media management", bucket: "Evergreen", intent: "Comm", pages: ["C"], niche: "Broad", priority: "Med", notes: null },
+  { n: 11, keyword: "social media marketing for small business", bucket: "Evergreen", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Med", notes: null },
+  { n: 12, keyword: "social media content creation services", bucket: "Evergreen", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Med", notes: null },
+  { n: 13, keyword: "social media management for med spas", bucket: "Evergreen", intent: "Comm", pages: ["H", "R"], niche: "Med spa", priority: "High", notes: "Niche moat page." },
+  { n: 14, keyword: "social media management for salons", bucket: "Evergreen", intent: "Comm", pages: ["H", "R"], niche: "Salon/beauty", priority: "High", notes: null },
+  { n: 15, keyword: "social media management for restaurants", bucket: "Evergreen", intent: "Comm", pages: ["H", "R"], niche: "Restaurant", priority: "High", notes: null },
+  { n: 16, keyword: "social media management for bars", bucket: "Evergreen", intent: "Comm", pages: ["H", "R"], niche: "Bar", priority: "Med", notes: null },
+  { n: 17, keyword: "social media management for pet groomers", bucket: "Evergreen", intent: "Comm", pages: ["H", "R"], niche: "Pet grooming", priority: "Med", notes: null },
+  { n: 18, keyword: "instagram management services", bucket: "Evergreen", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Med", notes: null },
+  { n: 19, keyword: "facebook management for small business", bucket: "Evergreen", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Low", notes: null },
+  { n: 20, keyword: "social media manager cost per month", bucket: "Evergreen", intent: "Info", pages: ["R"], niche: "Broad", priority: "Med", notes: "Price-anchor content." },
+  { n: 21, keyword: "best social media management services for small business", bucket: "Evergreen", intent: "Comm", pages: ["R", "C"], niche: "Broad", priority: "High", notes: "Review-page primary." },
+  { n: 22, keyword: "hire a social media manager", bucket: "Evergreen", intent: "Comm", pages: ["C"], niche: "Broad", priority: "Med", notes: null },
+  { n: 23, keyword: "no contract social media management", bucket: "Evergreen", intent: "Comm", pages: ["R", "H"], niche: "Broad", priority: "High", notes: "Direct moat term." },
+  { n: 24, keyword: "what does a social media management service include", bucket: "Evergreen", intent: "Info", pages: ["R"], niche: "Broad", priority: "Med", notes: "Snippet + AEO." },
+  { n: 25, keyword: "AI social media management", bucket: "Trending", intent: "Comm", pages: ["C"], niche: "Broad", priority: "High", notes: "Frame human+DFY vs pure AI." },
+  { n: 26, keyword: "AI social media manager", bucket: "Trending", intent: "Comm", pages: ["C"], niche: "Broad", priority: "High", notes: null },
+  { n: 27, keyword: "best AI social media tools", bucket: "Trending", intent: "Comm", pages: ["C"], niche: "Broad", priority: "Med", notes: "Blog magnet; redirect to service." },
+  { n: 28, keyword: "short form video services", bucket: "Trending", intent: "Comm", pages: ["H"], niche: "Broad", priority: "High", notes: "Second service line." },
+  { n: 29, keyword: "reels editing services", bucket: "Trending", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Med", notes: null },
+  { n: 30, keyword: "faceless content creation", bucket: "Trending", intent: "Comm", pages: ["C"], niche: "Broad", priority: "Med", notes: "Answers 'camera shy' pain." },
+  { n: 31, keyword: "UGC content for small business", bucket: "Trending", intent: "Comm", pages: ["C"], niche: "Broad", priority: "Med", notes: null },
+  { n: 32, keyword: "social media management with short form video", bucket: "Trending", intent: "Comm", pages: ["H", "C"], niche: "Broad", priority: "High", notes: "Bundle differentiator." },
+  { n: 33, keyword: "tiktok management services", bucket: "Trending", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Low", notes: null },
+  { n: 34, keyword: "AI vs done for you social media", bucket: "Trending", intent: "Comm", pages: ["C", "R"], niche: "Broad", priority: "High", notes: "Comparison-page winner." },
+  { n: 35, keyword: "is AI social media management worth it", bucket: "Trending", intent: "Info", pages: ["C", "R"], niche: "Broad", priority: "Med", notes: "AEO question." },
+  { n: 36, keyword: "social media management for small business 2026", bucket: "Trending", intent: "Comm", pages: ["R"], niche: "Broad", priority: "Med", notes: "Freshness term." },
+  { n: 37, keyword: "content creation agency for reels", bucket: "Trending", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Low", notes: null },
+  { n: 38, keyword: "instagram reels management service", bucket: "Trending", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Low", notes: null },
+  { n: 39, keyword: "short form video agency", bucket: "Trending", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Med", notes: null },
+  { n: 40, keyword: "buffer alternative", bucket: "Volume", intent: "Trans", pages: ["C", "R"], niche: "Broad", priority: "High", notes: "Top comparison page." },
+  { n: 41, keyword: "hootsuite alternative", bucket: "Volume", intent: "Trans", pages: ["C", "R"], niche: "Broad", priority: "High", notes: null },
+  { n: 42, keyword: "later alternative", bucket: "Volume", intent: "Trans", pages: ["C"], niche: "Broad", priority: "Med", notes: null },
+  { n: 43, keyword: "sprout social alternative", bucket: "Volume", intent: "Trans", pages: ["C"], niche: "Broad", priority: "Med", notes: null },
+  { n: 44, keyword: "metricool alternative", bucket: "Volume", intent: "Trans", pages: ["C"], niche: "Broad", priority: "Low", notes: null },
+  { n: 45, keyword: "cheap social media management", bucket: "Volume", intent: "Trans", pages: ["R", "H"], niche: "Broad", priority: "High", notes: "Reframe 'cheap' as value." },
+  { n: 46, keyword: "$99 social media management", bucket: "Volume", intent: "Trans", pages: ["H", "R"], niche: "Broad", priority: "High", notes: "Branded price hook." },
+  { n: 47, keyword: "social media management under $100", bucket: "Volume", intent: "Trans", pages: ["R"], niche: "Broad", priority: "Med", notes: null },
+  { n: 48, keyword: "social media agency near me", bucket: "Volume", intent: "Trans", pages: ["H"], niche: "Broad", priority: "Med", notes: "Local intent." },
+  { n: 49, keyword: "affordable social media agency", bucket: "Volume", intent: "Trans", pages: ["H"], niche: "Broad", priority: "High", notes: null },
+  { n: 50, keyword: "social media packages for small business", bucket: "Volume", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Med", notes: null },
+  { n: 51, keyword: "buffer vs done for you agency", bucket: "Volume", intent: "Comm", pages: ["C"], niche: "Broad", priority: "High", notes: "Tool-vs-service angle." },
+  { n: 52, keyword: "hootsuite vs social media agency", bucket: "Volume", intent: "Comm", pages: ["C"], niche: "Broad", priority: "Med", notes: null },
+  { n: 53, keyword: "social media management free trial", bucket: "Volume", intent: "Trans", pages: ["R", "H"], niche: "Broad", priority: "High", notes: "Matches your free-trial moat." },
+  { n: 54, keyword: "best value social media management", bucket: "Volume", intent: "Comm", pages: ["R"], niche: "Broad", priority: "Med", notes: null },
+  { n: 55, keyword: "social media management for small business near me", bucket: "Volume", intent: "Trans", pages: ["H"], niche: "Broad", priority: "Med", notes: "Local." },
+  { n: 56, keyword: "done for you instagram content", bucket: "Volume", intent: "Trans", pages: ["H", "C"], niche: "Broad", priority: "Med", notes: null },
+  { n: 57, keyword: "social media management subscription", bucket: "Volume", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Med", notes: null },
+  { n: 58, keyword: "flat rate social media management", bucket: "Volume", intent: "Comm", pages: ["R"], niche: "Broad", priority: "Low", notes: "No-hidden-fees moat." },
+  { n: 59, keyword: "social media management vs doing it yourself", bucket: "Volume", intent: "Comm", pages: ["C", "R"], niche: "Broad", priority: "High", notes: "DIY comparison." },
+  { n: 60, keyword: "social media management for local business", bucket: "Evergreen", intent: "Comm", pages: ["H"], niche: "Broad", priority: "Med", notes: "Local + evergreen blend." },
+];
