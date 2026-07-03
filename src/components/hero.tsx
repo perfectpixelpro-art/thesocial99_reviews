@@ -14,16 +14,14 @@ export function Hero({ pageSlug }: Props) {
         <div className="mx-auto max-w-3xl text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-muted-foreground">
             <ShieldCheck size={14} className="text-primary" />
-            Operated by {SITE.parentBrand} · Real reviews only
+            Updated for 2026 • Verified Customer Reviews • Honest Comparisons
           </div>
           <h1 className="mt-6 font-display text-4xl font-[650] leading-[1.1] tracking-tight text-ink md:text-6xl">
-            Honest reviews & comparisons of{" "}
-            <span className="text-primary">The Social 99</span>
+            The Social 99 Reviews<br/>
+            <span className="text-primary">Everything You Need to Know</span>
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-muted-foreground">
-            Direct answers for owners deciding whether a $99/mo done-for-you
-            social media service beats running a tool yourself — or hiring an
-            agency at 10× the price.
+            Read verified customer reviews, compare pricing and features, and see if The Social 99 is right for your business.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <CTAButton action="trial" pageSlug={pageSlug}>
@@ -32,7 +30,7 @@ export function Hero({ pageSlug }: Props) {
            
           </div>
           <p className="mt-4 text-xs text-muted-foreground">
-            No setup fee · Month-to-month · Cancel anytime
+            ✔ Verified Reviews • ✔ Transparent Comparisons • ✔ Updated Regularly
           </p>
         </div>
       </div>

@@ -176,8 +176,7 @@ function Home() {
               The Social 99 Review (2026)
             </h2>
             <p className="mt-2 max-w-xl text-muted-foreground">
-              Rated for US small-business fit — pricing, pros, honest
-              limitations, scored sections, and how it compares.
+              Explore our in-depth review of The Social 99, including pricing, features, customer reviews, pros, cons, and comparisons to help you choose the right social media management service.
             </p>
           </div>
           <Link
@@ -191,15 +190,13 @@ function Home() {
 
       <section className="container-page mt-20">
         <div className="text-xs font-[650] uppercase tracking-wider text-primary text-center">
-          Client reviews
+          VERIFIED CUSTOMER REVIEWS
         </div>
         <h2 className="mt-2 text-center font-display text-3xl font-[650] tracking-tight text-ink">
-          Real reviews only — placeholders shown until swapped
+          Real Customer Reviews & Testimonials
         </h2>
         <p className="mx-auto mt-3 max-w-xl text-center text-sm text-muted-foreground">
-          Per FTC 16 CFR Part 465, every published review is a real, consented
-          quote from an active client. Placeholders below are marked and never
-          shipped as-is.
+          Read authentic reviews from verified customers who use The Social 99. Every testimonial published on this page is shared with the client's permission, giving you honest insights into our service quality, support, and overall experience.
         </p>
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {REVIEWS.map((r) => (

@@ -85,13 +85,12 @@ export function ReviewPageView() {
                 First-party review
               </div>
               <h1 className="mt-3 font-display text-3xl font-[650] leading-[1.15] tracking-tight text-ink md:text-5xl">
-                The Social 99 Review (2026): is the $99 done-for-you service
-                worth it?
+                The Social 99 Review (2026): Is It Worth the $99/Month?
               </h1>
               <div className="mt-5">
                 <AuthorByline
-                  name="The Social 99 Editorial"
-                  role="First-party analysis"
+                  name="Reviewed by The Social 99 Editorial"
+                  role="Updated July 2026"
                   lastUpdated={LAST_UPDATED}
                   methodology="Methodology: hands-on documentation of the service we operate, plus post-shipping audits (cadence, on-brand consistency, revision responsiveness) tracked over rolling 90-day windows. Client reviews shown are real and consented."
                 />
