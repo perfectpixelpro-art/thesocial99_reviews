@@ -92,7 +92,7 @@ export function ReviewPageView() {
                   name="Reviewed by The Social 99 Editorial"
                   role="Updated July 2026"
                   lastUpdated={LAST_UPDATED}
-                  methodology="Methodology: hands-on documentation of the service we operate, plus post-shipping audits (cadence, on-brand consistency, revision responsiveness) tracked over rolling 90-day windows. Client reviews shown are real and consented."
+                  methodology="Methodology: This review is based on our operational data, service documentation, quality audits, customer feedback, and ongoing performance reviews. All published customer testimonials are genuine and shared with permission."
                 />
               </div>
             </header>
@@ -115,38 +115,32 @@ export function ReviewPageView() {
                     <RatingStars rating={OVERALL_RATING} className="mt-2" />
                   </div>
                   <div className="max-w-xl text-sm text-muted-foreground">
-                    Editorial score based on our own operating data; not an
-                    aggregated public rating. Rated for US small-business fit,
-                    where the service is designed to sit.
+                    Editorial Rating: 4.8/5
+
+Our editorial score reflects service quality, customer experience, value for money, ease of use, content quality, and ongoing support. It is based on internal operational data and verified customer feedback.
                   </div>
                 </div>
 
                 <div className="mt-6">
                   <QuickAnswerBox title="Quick summary">
-                    Yes — for the vast majority of US small businesses that
-                    need consistent posting on 1–3 platforms, The Social 99 at
-                    $99/mo is the cheapest way to stop being your own social
-                    media manager without dropping to freelancer-level
-                    reliability. Skip it if you already have an in-house
-                    creator or need enterprise features like SSO and approval
-                    chains.
+                    The Social 99 is an excellent choice for small businesses looking for affordable, done-for-you social media management. Starting at $99/month, it includes content creation, graphic design, scheduling, publishing, and ongoing support. While it may not suit businesses needing enterprise workflows or highly customized marketing strategies, it offers exceptional value for companies seeking a simple and reliable social media solution.
                   </QuickAnswerBox>
                 </div>
               </section>
 
               <section id="pros-cons">
-                <h2>Pros & cons</h2>
+                <h2>Pros & Cons of The Social 99</h2>
                 <div className="grid gap-4 md:grid-cols-2">
                   <div className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-card)]">
                     <div className="flex items-center gap-2 text-sm font-[650] text-success">
                       <CheckCircle2 size={18} /> Pros
                     </div>
                     <ul className="mt-3 space-y-2 text-sm text-ink">
-                      <li>• Truly done-for-you — no scheduler to learn.</li>
-                      <li>• Transparent pricing, no setup fee, no contract.</li>
-                      <li>• Human-made content in an AI-flooded era.</li>
-                      <li>• Review-before-publish on every plan.</li>
-                      <li>• Full stack: social + short-form video + websites.</li>
+                      <li>Fully done-for-you social media management.</li>
+                      <li>Transparent monthly pricing with no setup fee.</li>
+                      <li>Human-created content tailored to your brand.</li>
+                      <li>Review and approval before content is published.</li>
+                      <li>Optional short-form video and website support.</li>
                     </ul>
                   </div>
                   <div className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-card)]">
@@ -155,16 +149,13 @@ export function ReviewPageView() {
                     </div>
                     <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
                       <li>
-                        • Not a self-serve tool — power users who love their
-                        own scheduler won't get value.
+                        Best suited for businesses that want a team-managed service rather than a self-serve scheduling tool.
                       </li>
                       <li>
-                        • Starter ($99) doesn't include short-form video; if
-                        reels are core, plan on Growth or Premium.
+                        Short-form video content is included only on Growth and Premium plans.
                       </li>
                       <li>
-                        • Optimized for US small businesses — enterprise
-                        approval chains and SSO aren't part of the product.
+                        Designed primarily for small and local businesses, not enterprise organizations with complex approval workflows.
                       </li>
                     </ul>
                   </div>
@@ -172,25 +163,23 @@ export function ReviewPageView() {
               </section>
 
               <section id="what-you-get">
-                <h2>What you get</h2>
+                <h2>What's Included with The Social 99</h2>
                 <p>
-                  Direct answer: a team that plans, writes, designs, and
-                  publishes your social content weekly — plus optional
-                  short-form video and website work — for a flat monthly fee.
+                  Every The Social 99 plan includes content planning, copywriting, graphic design, scheduling, publishing, and ongoing support. Optional short-form video and website services are available on select plans.
                 </p>
                 <div className="grid gap-4 md:grid-cols-3">
                   {[
                     {
-                      t: "Social media management",
-                      d: "Content strategy, graphics, captions, scheduling and posting across the platforms you care about.",
+                      t: "Done-for-You Social Media Management",
+                      d: "Content strategy, graphics, captions, scheduling, publishing, and monthly support across the platforms your business uses most.",
                     },
                     {
-                      t: "Short-form video",
-                      d: "Reels and TikToks produced from templates or from footage you provide — included on Growth and Premium.",
+                      t: "Short-Form Video Content",
+                      d: "Reels, TikToks, and short-form videos created from templates or your footage, available on Growth and Premium plans.",
                     },
                     {
-                      t: "Website work",
-                      d: "Landing pages, micro-sites, and refreshes bundled into Premium so the funnel matches the feed.",
+                      t: "Website & Landing Page Support",
+                      d: "Landing pages, microsites, and website updates designed to match your brand and support your marketing funnel.",
                     },
                   ].map((b) => (
                     <div
@@ -207,10 +196,9 @@ export function ReviewPageView() {
               </section>
 
               <section id="pricing">
-                <h2>Pricing</h2>
+                <h2>The Social 99 Pricing & Plans</h2>
                 <p>
-                  Direct answer: $99, $199, or $299 per month. No setup fee, no
-                  contract, month-to-month.
+                  The Social 99 offers three flexible monthly plans starting at $99/month. Every plan includes human-created content, no setup fees, no long-term contracts, and month-to-month billing.
                 </p>
                 <div className="not-prose">
                   <PricingTable tiers={PRICING} pageSlug={SLUG} />
