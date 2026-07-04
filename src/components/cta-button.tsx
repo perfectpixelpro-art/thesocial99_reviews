@@ -19,7 +19,7 @@ export function CTAButton({
 }: Props) {
   const href = ctaUrl(action, pageSlug);
   const base =
-    "inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold transition-all duration-150 whitespace-nowrap";
+    "inline-flex items-center justify-center rounded-xl px-6 py-4 text-md font-semibold transition-all duration-150 whitespace-nowrap";
   const styles =
     variant === "primary"
       ? "bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm hover:shadow-md"

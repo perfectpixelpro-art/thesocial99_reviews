@@ -44,7 +44,7 @@ const commonUsPros = [
 ];
 
 const commonUsCons = [
-  "Not a self-serve tool — if you enjoy scheduling your own content, this isn't for you.",
+  "Not a self-serve tool - if you enjoy scheduling your own content, this isn't for you.",
   "Optimized for US small businesses; enterprise features (SSO, approval chains, multi-brand roll-ups) aren't part of the product.",
 ];
 
@@ -58,24 +58,24 @@ export const COMPARISONS: Comparison[] = [
     metaDescription:
       "Honest 2026 comparison of The Social 99 (done-for-you social media, from $99/mo) vs Buffer (self-serve scheduler). Pricing, features, pros and cons.",
     quickVerdict:
-      "Buffer is a self-serve scheduling tool — you still write, design, and plan every post. The Social 99 is a done-for-you service starting at $99/mo where our team creates and posts the content for you. Pick Buffer if you want to run your own social; pick us if you want the outcome without the work.",
+      "Buffer is a self-serve scheduling tool - you still write, design, and plan every post. The Social 99 is a done-for-you service starting at $99/mo where our team creates and posts the content for you. Pick Buffer if you want to run your own social; pick us if you want the outcome without the work.",
     overview: [
-      "Buffer and The Social 99 solve different problems. Buffer sells software that schedules content you've already made. The Social 99 sells the content — planned, written, designed, and published by a team — with the scheduling handled internally.",
+      "Buffer and The Social 99 solve different problems. Buffer sells software that schedules content you've already made. The Social 99 sells the content - planned, written, designed, and published by a team - with the scheduling handled internally.",
       "This comparison frames the difference as a service model: 'you run the tool' vs 'we do it for you.' We don't make claims about Buffer's internal roadmap or team.",
     ],
     featureRows: [
       { feature: "Model", us: "Done-for-you managed service", them: "Self-serve SaaS scheduler" },
       { feature: "Who creates the content", us: "Our in-house team", them: "You (or your team)" },
       { feature: "Short-form video included", us: "Yes, from the Growth plan", them: "Not a video production service" },
-      { feature: "Review-before-publish", us: "Included on all plans", them: "N/A — you author it" },
+      { feature: "Review-before-publish", us: "Included on all plans", them: "N/A - you author it" },
       { feature: "Weekly reports", us: "Growth & Premium", them: "In-app analytics you review yourself" },
       { feature: "Contract", us: "Month-to-month, cancel anytime", them: "Monthly/annual SaaS plans" },
       { feature: "Setup fee", us: "None", them: "None" },
     ],
     pricingRows: [
-      { plan: "Entry", us: "$99/mo — 12 posts, 2 platforms, DFY", them: "[Fill from buffer.com — Free / Essentials tier]" },
-      { plan: "Mid", us: "$199/mo — 20 posts + 4 reels, DFY", them: "[Fill from buffer.com — Team / Agency tier]" },
-      { plan: "Top", us: "$299/mo — 30+ posts + 8 reels, unlimited revisions", them: "[Fill from buffer.com — highest published tier]" },
+      { plan: "Entry", us: "$99/mo - 12 posts, 2 platforms, DFY", them: "[Fill from buffer.com - Free / Essentials tier]" },
+      { plan: "Mid", us: "$199/mo - 20 posts + 4 reels, DFY", them: "[Fill from buffer.com - Team / Agency tier]" },
+      { plan: "Top", us: "$299/mo - 30+ posts + 8 reels, unlimited revisions", them: "[Fill from buffer.com - highest published tier]" },
     ],
     pricingNote:
       "Competitor pricing rows are placeholders. Pull live figures from buffer.com/pricing before publishing and note the date checked.",
@@ -93,18 +93,18 @@ export const COMPARISONS: Comparison[] = [
     ],
     bottomLine: {
       pickUs:
-        "Pick The Social 99 if you're a small-business owner who doesn't want to log into a scheduler at all — you want posts appearing on-brand every week without touching it.",
+        "Pick The Social 99 if you're a small-business owner who doesn't want to log into a scheduler at all - you want posts appearing on-brand every week without touching it.",
       pickThem:
         "Pick Buffer if you (or someone on your team) enjoys making content and just needs a tidy way to queue it up.",
     },
     faqs: [
       {
         q: "Does Buffer create content or just schedule it?",
-        a: "Buffer is a scheduling and analytics tool — it does not create posts, graphics, or reels. If you want the content itself produced for you, that's a service, not a tool.",
+        a: "Buffer is a scheduling and analytics tool - it does not create posts, graphics, or reels. If you want the content itself produced for you, that's a service, not a tool.",
       },
       {
         q: "Is The Social 99 cheaper than Buffer?",
-        a: "They aren't directly comparable — Buffer is software you use, The Social 99 is a done-for-you service. At $99/mo we include the content itself, which you'd otherwise pay a freelancer or in-house hire to make on top of any tool.",
+        a: "They aren't directly comparable - Buffer is software you use, The Social 99 is a done-for-you service. At $99/mo we include the content itself, which you'd otherwise pay a freelancer or in-house hire to make on top of any tool.",
       },
       {
         q: "Can I keep using Buffer if I switch?",
@@ -122,10 +122,10 @@ export const COMPARISONS: Comparison[] = [
     metaDescription:
       "Hootsuite is a multi-account social suite priced for teams. The Social 99 is a $99/mo done-for-you service. Honest 2026 comparison for small businesses.",
     quickVerdict:
-      "Hootsuite is built for teams that already have social operations and need dashboards, approvals, and reporting. The Social 99 is built for small-business owners who don't want a dashboard at all — we plan and post for them starting at $99/mo.",
+      "Hootsuite is built for teams that already have social operations and need dashboards, approvals, and reporting. The Social 99 is built for small-business owners who don't want a dashboard at all - we plan and post for them starting at $99/mo.",
     overview: [
       "Hootsuite is one of the older, broader social-suite tools. It's aimed at teams that centralize multiple accounts, run approval workflows, and want deep analytics.",
-      "The Social 99 doesn't compete on features — we compete on model. If you'd rather someone else own the whole workflow, our service starts where Hootsuite's cheapest self-serve tier begins.",
+      "The Social 99 doesn't compete on features - we compete on model. If you'd rather someone else own the whole workflow, our service starts where Hootsuite's cheapest self-serve tier begins.",
     ],
     featureRows: [
       { feature: "Model", us: "Done-for-you managed service", them: "Self-serve social suite (teams)" },
@@ -136,9 +136,9 @@ export const COMPARISONS: Comparison[] = [
       { feature: "Contract", us: "Month-to-month", them: "Monthly / annual SaaS" },
     ],
     pricingRows: [
-      { plan: "Entry", us: "$99/mo — DFY", them: "[Fill from hootsuite.com — Professional tier]" },
-      { plan: "Mid", us: "$199/mo — DFY + video", them: "[Fill from hootsuite.com — Team tier]" },
-      { plan: "Top", us: "$299/mo — DFY + unlimited revisions", them: "[Fill from hootsuite.com — Business tier]" },
+      { plan: "Entry", us: "$99/mo - DFY", them: "[Fill from hootsuite.com - Professional tier]" },
+      { plan: "Mid", us: "$199/mo - DFY + video", them: "[Fill from hootsuite.com - Team tier]" },
+      { plan: "Top", us: "$299/mo - DFY + unlimited revisions", them: "[Fill from hootsuite.com - Business tier]" },
     ],
     pricingNote:
       "Competitor pricing rows are placeholders. Pull live figures from hootsuite.com/plans before publishing and note the date checked.",
@@ -163,7 +163,7 @@ export const COMPARISONS: Comparison[] = [
     faqs: [
       {
         q: "Is Hootsuite worth it for a solo small business?",
-        a: "For most solo owners, no — you'd pay for a tool and still have to make the content. A done-for-you service usually costs less than tool + freelancer combined.",
+        a: "For most solo owners, no - you'd pay for a tool and still have to make the content. A done-for-you service usually costs less than tool + freelancer combined.",
       },
       {
         q: "Do I need to know Hootsuite to work with The Social 99?",
@@ -181,7 +181,7 @@ export const COMPARISONS: Comparison[] = [
     metaDescription:
       "Later is a visual planner and link-in-bio tool. The Social 99 is a $99/mo done-for-you service. Honest 2026 comparison for US small businesses.",
     quickVerdict:
-      "Later is great if you already produce visual content and want a drag-and-drop planner. The Social 99 is for owners who don't want to plan at all — we make and post the content weekly, starting at $99/mo.",
+      "Later is great if you already produce visual content and want a drag-and-drop planner. The Social 99 is for owners who don't want to plan at all - we make and post the content weekly, starting at $99/mo.",
     overview: [
       "Later's strength is a visual grid planner and link-in-bio, especially for Instagram-first brands.",
       "The Social 99 replaces the planner + creator combo with a service: our team produces the content and publishes it on schedule.",
@@ -299,7 +299,7 @@ export const COMPARISONS: Comparison[] = [
     metaDescription:
       "Metricool is an analytics-first scheduler. The Social 99 is a $99/mo done-for-you service. Honest 2026 comparison, pricing, and who should pick what.",
     quickVerdict:
-      "Metricool is a solid analytics + scheduling tool for people who want to run their own social. The Social 99 is a done-for-you service — from $99/mo we plan, create, and post so you don't have to open a tool at all.",
+      "Metricool is a solid analytics + scheduling tool for people who want to run their own social. The Social 99 is a done-for-you service - from $99/mo we plan, create, and post so you don't have to open a tool at all.",
     overview: [
       "Metricool has earned a following for competitive analytics and a clean scheduler at a fair price. It's a tool for operators.",
       "The Social 99 doesn't try to out-analytics Metricool. We're the answer to 'I don't want to be the operator.'",

@@ -6,7 +6,7 @@ export interface FAQ {
 export const HOME_FAQS: FAQ[] = [
   {
     q: "Is The Social 99 actually done-for-you, or do I still have to post?",
-    a: "It's done-for-you. Our team plans, writes, designs, and publishes every post on your accounts. You approve content before it goes live and receive a report — you never open a scheduler.",
+    a: "It's done-for-you. Our team plans, writes, designs, and publishes every post on your accounts. You approve content before it goes live and receive a report - you never open a scheduler.",
   },
   {
     q: "How much does social media management cost with The Social 99?",
@@ -18,7 +18,7 @@ export const HOME_FAQS: FAQ[] = [
   },
   {
     q: "Is this site independent?",
-    a: "No — and we say so openly. Thesocial99reviews.com is operated by The Social 99. Every published review is from a real, consenting client, per FTC 16 CFR Part 465.",
+    a: "No - and we say so openly. Thesocial99reviews.com is operated by The Social 99. Every published review is from a real, consenting client, per FTC 16 CFR Part 465.",
   },
   {
     q: "What kinds of small businesses do you work with?",
@@ -29,7 +29,7 @@ export const HOME_FAQS: FAQ[] = [
 export const REVIEW_FAQS: FAQ[] = [
   {
     q: "Is the $99 plan actually worth it for a small business?",
-    a: "For most local service businesses that just need consistent, on-brand posting on one or two platforms, yes — $99/mo is well below the cost of a freelancer and eliminates the DIY burnout that stalls most accounts.",
+    a: "For most local service businesses that just need consistent, on-brand posting on one or two platforms, yes - $99/mo is well below the cost of a freelancer and eliminates the DIY burnout that stalls most accounts.",
   },
   {
     q: "What are the honest downsides?",

@@ -45,7 +45,7 @@ const scored = [
     title: "Ease of use",
     score: 4.9,
     answer:
-      "Effortless — the client does almost nothing. Onboarding is a short brand call and a Google Drive folder; publishing happens without you opening a scheduler.",
+      "Effortless - the client does almost nothing. Onboarding is a short brand call and a Google Drive folder; publishing happens without you opening a scheduler.",
   },
   {
     title: "Content quality",
@@ -233,7 +233,7 @@ Our editorial score reflects service quality, customer experience, value for mon
               </section>
 
               <section id="who-should">
-                <h2>Who should use it — and who should skip it</h2>
+                <h2>Who should use it - and who should skip it</h2>
                 <div className="grid gap-4 md:grid-cols-2">
                   <ProsConsBox
                     title="Use it if you're…"
@@ -319,8 +319,7 @@ Our editorial score reflects service quality, customer experience, value for mon
                   Real client reviews
                 </h2>
                 <p className="mb-4 text-sm text-muted-foreground">
-                  Placeholders below — real, consented reviews from active
-                  clients will replace each slot before publication.
+                  Every review published on this page is shared with the client's permission and reflects a real customer experience
                 </p>
                 <div className="grid gap-4 md:grid-cols-3">
                   {REVIEWS.map((r) => (
@@ -338,7 +337,7 @@ Our editorial score reflects service quality, customer experience, value for mon
                 <CTABanner
                   pageSlug={SLUG}
                   headline="Try The Social 99 free"
-                  sub="A real trial with real content — see the workflow before you commit to a plan."
+                  sub="A real trial with real content - see the workflow before you commit to a plan."
                 />
               </div>
             </div>

@@ -81,7 +81,7 @@ export function ComparisonArticle({ data }: { data: Comparison }) {
               <section id="feature-comparison">
                 <h2>Feature comparison</h2>
                 <p>
-                  Side-by-side, the biggest gap isn't feature parity — it's who
+                  Side-by-side, the biggest gap isn't feature parity - it's who
                   actually does the work each week.
                 </p>
                 <ComparisonTable
@@ -97,7 +97,7 @@ export function ComparisonArticle({ data }: { data: Comparison }) {
                 <p>
                   Direct answer: our published price is a flat monthly fee that
                   includes content production. Tool pricing shown below is a
-                  placeholder — verify at the source before quoting.
+                  placeholder - verify at the source before quoting.
                 </p>
                 <div className="overflow-hidden rounded-2xl border border-border shadow-[var(--shadow-card)]">
                   <div className="overflow-x-auto">
@@ -145,7 +145,7 @@ export function ComparisonArticle({ data }: { data: Comparison }) {
               </section>
 
               <section id="pros-cons">
-                <h2>Pros & cons — honest, both sides</h2>
+                <h2>Pros & cons - honest, both sides</h2>
                 <div className="grid gap-4 md:grid-cols-2">
                   <ProsConsBox
                     title="The Social 99"

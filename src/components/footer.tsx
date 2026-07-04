@@ -26,7 +26,7 @@ export function Footer() {
               >
                 The Social 99
               </a>{" "}
-              — the done-for-you social media service for US small businesses.
+              - the done-for-you social media service for US small businesses.
             </p>
           </div>
 

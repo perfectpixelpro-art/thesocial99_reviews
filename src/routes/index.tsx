@@ -58,7 +58,7 @@ function Home() {
         <QuickAnswerBox>
           <strong>The direct answer:</strong> The Social 99 is a done-for-you
           social media service where a human team plans, creates, and publishes
-          your content weekly — from $99/mo, no setup fee, no contract. It's
+          your content weekly - from $99/mo, no setup fee, no contract. It's
           the cheapest way to fully outsource social media without dropping to
           freelancer-level reliability. This site is operated by The Social 99
           and shows only real, consented client reviews.
@@ -106,7 +106,7 @@ function Home() {
             Eight things a $99/mo done-for-you service actually does
           </h2>
           <p className="mt-3 text-muted-foreground">
-            Answer-first: it's not a scheduler you operate — it's a team that
+            Answer-first: it's not a scheduler you operate - it's a team that
             ships weekly, in your voice, with your review before anything goes
             live.
           </p>

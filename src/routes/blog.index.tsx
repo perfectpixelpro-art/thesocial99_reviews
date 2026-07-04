@@ -50,7 +50,7 @@ function BlogIndex() {
             Comparisons
           </div>
           <h1 className="mt-3 font-display text-4xl font-[650] leading-tight tracking-tight text-ink md:text-5xl">
-            The Social 99 vs the market — done-for-you vs the tools you'd run
+            The Social 99 vs the market - done-for-you vs the tools you'd run
             yourself
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
