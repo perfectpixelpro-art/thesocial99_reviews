@@ -16,7 +16,7 @@ export function ReviewCard({ review }: { review: ClientReview }) {
       <footer className="mt-5 border-t border-border pt-4">
         <div className="text-sm font-[650] text-ink">{review.name}</div>
         <div className="text-xs text-muted-foreground">
-          {review.role} · {review.business} · {review.niche}
+          {review.role} · 
         </div>
       </footer>
     </article>
