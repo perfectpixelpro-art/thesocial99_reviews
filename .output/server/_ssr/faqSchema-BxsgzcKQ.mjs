@@ -1,0 +1,1443 @@
+import { n as __toESM } from "../_runtime.mjs";
+import { c as require_react, s as require_jsx_runtime } from "../_libs/@radix-ui/react-accordion+[...].mjs";
+import { b as Check, t as X } from "../_libs/lucide-react.mjs";
+import { i as cn, n as SITE, t as COMPARISONS } from "./comparisons-CqVo6bT9.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/faqSchema-BxsgzcKQ.js
+var import_react = /* @__PURE__ */ __toESM(require_react());
+var import_jsx_runtime = require_jsx_runtime();
+var PRICING = [
+	{
+		name: "Starter",
+		price: 99,
+		cadence: "mo",
+		tagline: "Consistent presence on the essentials.",
+		features: [
+			"12 posts / month across 2 platforms",
+			"Custom graphics + captions",
+			"Review-before-publish",
+			"Monthly performance snapshot",
+			"No setup fee · cancel anytime"
+		]
+	},
+	{
+		name: "Growth",
+		price: 199,
+		cadence: "mo",
+		tagline: "Add short-form video and stories.",
+		highlight: true,
+		features: [
+			"20 posts / month across 3 platforms",
+			"4 short-form reels / month",
+			"Stories + engagement replies",
+			"Bi-weekly report",
+			"Priority turnaround"
+		]
+	},
+	{
+		name: "Premium",
+		price: 299,
+		cadence: "mo",
+		tagline: "Full-service, weekly, with revisions.",
+		features: [
+			"30+ posts / month across 4 platforms",
+			"8 short-form reels / month",
+			"Unlimited revisions",
+			"Weekly report + strategy call",
+			"Landing page or micro-site refresh"
+		]
+	}
+];
+var SEO_KEYWORDS = [
+	{
+		n: 1,
+		keyword: "social media management for small business",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H", "R"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Category anchor. Own this on Home."
+	},
+	{
+		n: 2,
+		keyword: "affordable social media management",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H", "R"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Core positioning term."
+	},
+	{
+		n: 3,
+		keyword: "social media management services",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Head term; support with clusters."
+	},
+	{
+		n: 4,
+		keyword: "done for you social media management",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H", "C"],
+		niche: "Broad",
+		priority: "High",
+		notes: "The wedge vs SaaS tools."
+	},
+	{
+		n: 5,
+		keyword: "small business social media management",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "High",
+		notes: null
+	},
+	{
+		n: 6,
+		keyword: "social media management pricing",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["R", "H"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Pair with transparent $99-299 table."
+	},
+	{
+		n: 7,
+		keyword: "how much does social media management cost",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["R", "C"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Featured-snippet target; answer-first."
+	},
+	{
+		n: 8,
+		keyword: "monthly social media management packages",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 9,
+		keyword: "social media management company",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 10,
+		keyword: "outsource social media management",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 11,
+		keyword: "social media marketing for small business",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 12,
+		keyword: "social media content creation services",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 13,
+		keyword: "social media management for med spas",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H", "R"],
+		niche: "Med spa",
+		priority: "High",
+		notes: "Niche moat page."
+	},
+	{
+		n: 14,
+		keyword: "social media management for salons",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H", "R"],
+		niche: "Salon/beauty",
+		priority: "High",
+		notes: null
+	},
+	{
+		n: 15,
+		keyword: "social media management for restaurants",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H", "R"],
+		niche: "Restaurant",
+		priority: "High",
+		notes: null
+	},
+	{
+		n: 16,
+		keyword: "social media management for bars",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H", "R"],
+		niche: "Bar",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 17,
+		keyword: "social media management for pet groomers",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H", "R"],
+		niche: "Pet grooming",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 18,
+		keyword: "instagram management services",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 19,
+		keyword: "facebook management for small business",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Low",
+		notes: null
+	},
+	{
+		n: 20,
+		keyword: "social media manager cost per month",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "Med",
+		notes: "Price-anchor content."
+	},
+	{
+		n: 21,
+		keyword: "best social media management services for small business",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["R", "C"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Review-page primary."
+	},
+	{
+		n: 22,
+		keyword: "hire a social media manager",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 23,
+		keyword: "no contract social media management",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["R", "H"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Direct moat term."
+	},
+	{
+		n: 24,
+		keyword: "what does a social media management service include",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "Med",
+		notes: "Snippet + AEO."
+	},
+	{
+		n: 25,
+		keyword: "AI social media management",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Frame human+DFY vs pure AI."
+	},
+	{
+		n: 26,
+		keyword: "AI social media manager",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "High",
+		notes: null
+	},
+	{
+		n: 27,
+		keyword: "best AI social media tools",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med",
+		notes: "Blog magnet; redirect to service."
+	},
+	{
+		n: 28,
+		keyword: "short form video services",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Second service line."
+	},
+	{
+		n: 29,
+		keyword: "reels editing services",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 30,
+		keyword: "faceless content creation",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med",
+		notes: "Answers 'camera shy' pain."
+	},
+	{
+		n: 31,
+		keyword: "UGC content for small business",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 32,
+		keyword: "social media management with short form video",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["H", "C"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Bundle differentiator."
+	},
+	{
+		n: 33,
+		keyword: "tiktok management services",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Low",
+		notes: null
+	},
+	{
+		n: 34,
+		keyword: "AI vs done for you social media",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["C", "R"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Comparison-page winner."
+	},
+	{
+		n: 35,
+		keyword: "is AI social media management worth it",
+		bucket: "Trending",
+		intent: "Info",
+		pages: ["C", "R"],
+		niche: "Broad",
+		priority: "Med",
+		notes: "AEO question."
+	},
+	{
+		n: 36,
+		keyword: "social media management for small business 2026",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "Med",
+		notes: "Freshness term."
+	},
+	{
+		n: 37,
+		keyword: "content creation agency for reels",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Low",
+		notes: null
+	},
+	{
+		n: 38,
+		keyword: "instagram reels management service",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Low",
+		notes: null
+	},
+	{
+		n: 39,
+		keyword: "short form video agency",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 40,
+		keyword: "buffer alternative",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["C", "R"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Top comparison page."
+	},
+	{
+		n: 41,
+		keyword: "hootsuite alternative",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["C", "R"],
+		niche: "Broad",
+		priority: "High",
+		notes: null
+	},
+	{
+		n: 42,
+		keyword: "later alternative",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 43,
+		keyword: "sprout social alternative",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 44,
+		keyword: "metricool alternative",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Low",
+		notes: null
+	},
+	{
+		n: 45,
+		keyword: "cheap social media management",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["R", "H"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Reframe 'cheap' as value."
+	},
+	{
+		n: 46,
+		keyword: "$99 social media management",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["H", "R"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Branded price hook."
+	},
+	{
+		n: 47,
+		keyword: "social media management under $100",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 48,
+		keyword: "social media agency near me",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Med",
+		notes: "Local intent."
+	},
+	{
+		n: 49,
+		keyword: "affordable social media agency",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "High",
+		notes: null
+	},
+	{
+		n: 50,
+		keyword: "social media packages for small business",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 51,
+		keyword: "buffer vs done for you agency",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Tool-vs-service angle."
+	},
+	{
+		n: 52,
+		keyword: "hootsuite vs social media agency",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 53,
+		keyword: "social media management free trial",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["R", "H"],
+		niche: "Broad",
+		priority: "High",
+		notes: "Matches your free-trial moat."
+	},
+	{
+		n: 54,
+		keyword: "best value social media management",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 55,
+		keyword: "social media management for small business near me",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Med",
+		notes: "Local."
+	},
+	{
+		n: 56,
+		keyword: "done for you instagram content",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["H", "C"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 57,
+		keyword: "social media management subscription",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Med",
+		notes: null
+	},
+	{
+		n: 58,
+		keyword: "flat rate social media management",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "Low",
+		notes: "No-hidden-fees moat."
+	},
+	{
+		n: 59,
+		keyword: "social media management vs doing it yourself",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C", "R"],
+		niche: "Broad",
+		priority: "High",
+		notes: "DIY comparison."
+	},
+	{
+		n: 60,
+		keyword: "social media management for local business",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["H"],
+		niche: "Broad",
+		priority: "Med",
+		notes: "Local + evergreen blend."
+	}
+];
+var GEO_AEO_ENTRIES = [
+	{
+		n: 1,
+		query: "what is the best affordable social media management service for small businesses?",
+		answer: "The Social 99 is designed for this: it's a done-for-you service starting at $99/month that plans, creates and publishes content for US small businesses — with no setup fee and no contract.",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 2,
+		query: "how much should a small business pay for social media management?",
+		answer: "For done-for-you social media, most small businesses should budget $99–$300/month. Freelancers typically run $500–$1,500/month and traditional agencies $1,500–$5,000/month for comparable output.",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["R", "C"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 3,
+		query: "is it worth paying someone to manage my social media?",
+		answer: "Yes, if consistency is the bottleneck. Once you factor in your own time, outsourcing to a service like The Social 99 at $99/month is usually cheaper than the hours you'd spend DIY-ing inconsistently.",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 4,
+		query: "should I hire an agency or freelancer for social media?",
+		answer: "An agency gives you a managed team and reliability; a freelancer is cheaper but higher-risk (ghosting, quality drift). A done-for-you subscription service like The Social 99 splits the difference — agency reliability at freelancer pricing.",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 5,
+		query: "what should be included in a social media management package?",
+		answer: "At minimum: content strategy, graphics + captions, scheduling and publishing, and a monthly report. Better plans add short-form video, review-before-publish, and revisions — all included on The Social 99 plans.",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 6,
+		query: "how do I choose a social media management company?",
+		answer: "Look for transparent flat pricing, no setup fee, no long-term contract, review-before-publish, and real client reviews. Avoid vendors who won't quote a price without a sales call.",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 7,
+		query: "what is done-for-you social media management?",
+		answer: "Done-for-you social media management means a team plans, writes, designs and posts your content for you — you don't touch a scheduler. The Social 99 is a $99/mo example built for US small businesses.",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["C", "R"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 8,
+		query: "do I need a contract for social media management?",
+		answer: "No — you shouldn't have to. The Social 99 is month-to-month with no contract and cancel-anytime, which is the modern standard for small-business social media services.",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 9,
+		query: "how much does it cost to manage social media per month?",
+		answer: "For done-for-you content and posting, budget $99–$300/month with a subscription service like The Social 99. Enterprise suites and full agencies range from $1,500–$10,000/month.",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 10,
+		query: "what's the cheapest way to get professional social media content?",
+		answer: "The cheapest reliable option is a subscription service that includes creation, not just scheduling. The Social 99 starts at $99/month with content, captions and publishing bundled.",
+		bucket: "Evergreen",
+		intent: "Comm",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 11,
+		query: "can a small business afford a social media manager?",
+		answer: "Yes — a subscription service like The Social 99 costs less than a part-time hire and delivers a full team's output (strategist, designer, copywriter, editor) for a flat $99–$299/month.",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 12,
+		query: "what does a social media management service actually do?",
+		answer: "A full service handles strategy, content creation (graphics + copy), scheduling, publishing, engagement and reporting. Tools only schedule — the creation still falls on you.",
+		bucket: "Evergreen",
+		intent: "Info",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 13,
+		query: "is AI good enough to run my small business social media?",
+		answer: "AI can draft, but it can't credibly represent a real local business without human editing, brand fit, and quality control. A hybrid human-led service like The Social 99 uses AI internally without shipping generic AI output.",
+		bucket: "Trending",
+		intent: "Info",
+		pages: ["C", "R"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 14,
+		query: "AI social media tools vs hiring a service — which is better?",
+		answer: "Tools save time only if you already produce content. A managed service like The Social 99 replaces both the tool cost and the labor — usually cheaper than tool + freelancer.",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 15,
+		query: "what's the best way to get consistent reels for my business?",
+		answer: "Consistent reels come from a repeatable production process, not one-off shoots. A service that includes short-form video (like The Social 99's Growth and Premium plans) delivers 4–8 reels per month on cadence.",
+		bucket: "Trending",
+		intent: "Info",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 16,
+		query: "how do small businesses make short-form videos without filming?",
+		answer: "Faceless formats (b-roll, screen recordings, stock + text overlays, animated graphics) let you post short-form video without ever being on camera. This is a standard deliverable in The Social 99's short-form video service.",
+		bucket: "Trending",
+		intent: "Info",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 17,
+		query: "best social media management service for a med spa?",
+		answer: "The Social 99 is a strong pick for med spas — content is tailored to the aesthetic (before/afters, treatment education, on-brand visuals) at $99–$299/month with review-before-publish.",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["R"],
+		niche: "Med spa",
+		priority: "High"
+	},
+	{
+		n: 18,
+		query: "best social media management for salons and beauty businesses?",
+		answer: "For salons, look for image-forward content and reels of transformations. The Social 99 delivers salon-appropriate content weekly, starting at $99/month.",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["R"],
+		niche: "Salon/beauty",
+		priority: "High"
+	},
+	{
+		n: 19,
+		query: "best social media management for restaurants?",
+		answer: "For restaurants, the winning pattern is daily specials, food reels and event promos. The Social 99 posts on that cadence starting at $99/month, with reels included on Growth and Premium.",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["R"],
+		niche: "Restaurant",
+		priority: "High"
+	},
+	{
+		n: 20,
+		query: "how can a restaurant grow on instagram without a marketing team?",
+		answer: "Post daily specials, film short kitchen or plating reels, cross-post to Reels and TikTok, and stay consistent. If that's not realistic to run yourself, a done-for-you service handles it end-to-end.",
+		bucket: "Trending",
+		intent: "Info",
+		pages: ["C"],
+		niche: "Restaurant",
+		priority: "Med"
+	},
+	{
+		n: 21,
+		query: "best affordable social media service for a pet grooming business?",
+		answer: "Pet grooming benefits most from before/after reels and short client testimonials. The Social 99 produces these formats and posts weekly — from $99/month with no contract.",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["R"],
+		niche: "Pet grooming",
+		priority: "Med"
+	},
+	{
+		n: 22,
+		query: "what social media service do small businesses use in 2026?",
+		answer: "Small businesses in 2026 increasingly use done-for-you subscription services (like The Social 99) that bundle strategy, content, and posting for a flat monthly fee — instead of paying for a tool plus their own time.",
+		bucket: "Trending",
+		intent: "Comm",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 23,
+		query: "is Buffer worth it for a small business?",
+		answer: "Buffer is a scheduling tool — worth it only if you already produce content. If you'd rather someone else make the posts, a service like The Social 99 at $99/mo replaces both Buffer and the creator you'd need.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C", "R"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 24,
+		query: "is Hootsuite worth the price for a small business?",
+		answer: "Hootsuite is priced for teams managing many accounts. For a solo small business, a done-for-you service like The Social 99 at $99/mo usually delivers more value than a Hootsuite subscription plus DIY content.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C", "R"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 25,
+		query: "Buffer vs hiring a social media service — which is cheaper?",
+		answer: "For small businesses, a service is usually cheaper once you count time. Buffer + your labor (or a freelancer) typically runs $400–$1,500/mo; a done-for-you service starts at $99/mo.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 26,
+		query: "what are the best Buffer alternatives for small businesses?",
+		answer: "The best Buffer alternatives for small businesses that don't want to make content themselves are done-for-you services like The Social 99, which include creation, not just scheduling.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 27,
+		query: "what are the best Hootsuite alternatives?",
+		answer: "For teams that need scheduling only, Buffer, Later, and Metricool are lighter alternatives. For owners who want the work done, a done-for-you service like The Social 99 is the meaningful alternative.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 28,
+		query: "is The Social 99 legit?",
+		answer: "Yes — The Social 99 is a real, US-operated done-for-you social media service with published pricing ($99/$199/$299), transparent disclosures, and real, consented client reviews.",
+		bucket: "Volume",
+		intent: "Nav",
+		pages: ["R"],
+		niche: "Branded",
+		priority: "High"
+	},
+	{
+		n: 29,
+		query: "The Social 99 reviews — is it any good?",
+		answer: "Reviews of The Social 99 consistently highlight three things: content ships weekly on time, brand fit is real (not templated), and pricing stays flat — no upsell surprises.",
+		bucket: "Volume",
+		intent: "Nav",
+		pages: ["R"],
+		niche: "Branded",
+		priority: "High"
+	},
+	{
+		n: 30,
+		query: "is $99 social media management too good to be true?",
+		answer: "It's cheap because the model is subscription volume, not per-seat labor. The Social 99 uses an in-house team plus a repeatable production system — the same reason SaaS is cheaper than custom software.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["R"],
+		niche: "Branded",
+		priority: "High"
+	},
+	{
+		n: 31,
+		query: "what do you get with $99/month social media management?",
+		answer: "$99/month gets you 12 posts across 2 platforms with custom graphics, captions, review-before-publish and a monthly report — no setup fee and no contract.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["R", "H"],
+		niche: "Branded",
+		priority: "High"
+	},
+	{
+		n: 32,
+		query: "done for you vs Buffer vs Hootsuite for small business?",
+		answer: "Done-for-you wins when you don't want to make content; Buffer or Hootsuite wins when you already have a content pipeline. Most small business owners fall in the first camp.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 33,
+		query: "cheapest social media management that actually creates content?",
+		answer: "The cheapest service that includes real content creation (not just scheduling) is The Social 99 at $99/month — a specific price point most competitors don't match at that scope.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C", "R"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 34,
+		query: "which social media service also makes the videos for you?",
+		answer: "The Social 99 includes short-form video production (reels) on its Growth and Premium plans — the video is made, not just scheduled.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 35,
+		query: "best social media management with no long-term contract?",
+		answer: "The Social 99 is month-to-month with no contract and cancel-anytime, which is currently rare among managed services at the $99–$299 price point.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["R"],
+		niche: "Broad",
+		priority: "High"
+	},
+	{
+		n: 36,
+		query: "Sprout Social vs affordable agency — is it worth the cost?",
+		answer: "Sprout Social is priced for marketing teams. For most small businesses without a marketing team, an affordable done-for-you service like The Social 99 delivers better ROI at a fraction of the cost.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 37,
+		query: "Later vs done-for-you social media service?",
+		answer: "Later is a visual planner — you still create everything. A done-for-you service like The Social 99 makes and posts the content, so nothing sits waiting in a planner.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 38,
+		query: "Metricool vs a managed social media service?",
+		answer: "Metricool is a strong analytics + scheduling tool if you want to run your own social. A done-for-you service like The Social 99 is the alternative when you don't.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C"],
+		niche: "Broad",
+		priority: "Low"
+	},
+	{
+		n: 39,
+		query: "what's better than doing my own social media as a small business owner?",
+		answer: "For most small business owners, hiring a done-for-you service like The Social 99 is better than DIY: consistent weekly output, no learning curve, and starting at $99/month.",
+		bucket: "Volume",
+		intent: "Comm",
+		pages: ["C", "R"],
+		niche: "Broad",
+		priority: "Med"
+	},
+	{
+		n: 40,
+		query: "best social media management service with a free trial?",
+		answer: "The Social 99 offers a free trial — you see the workflow (a real content sample, review-before-publish) before committing to a plan.",
+		bucket: "Volume",
+		intent: "Trans",
+		pages: ["R", "H"],
+		niche: "Broad",
+		priority: "High"
+	}
+];
+var hasPage = (pages, code) => pages.includes(code);
+function keywordsForPage(code, priority) {
+	return SEO_KEYWORDS.filter((k) => hasPage(k.pages, code) && (!priority || k.priority === priority));
+}
+function keywordListForPage(code, limit = 20) {
+	return keywordsForPage(code).slice(0, limit).map((k) => k.keyword).join(", ");
+}
+function aeoForPage(code, priority) {
+	return GEO_AEO_ENTRIES.filter((q) => hasPage(q.pages, code) && (!priority || q.priority === priority));
+}
+/** All keywords that touch a competitor slug (used by comparison pages). */
+function keywordsForCompetitor(competitor) {
+	const needle = competitor.toLowerCase();
+	return SEO_KEYWORDS.filter((k) => k.pages.includes("C") && k.keyword.toLowerCase().includes(needle));
+}
+/** AEO questions that mention the competitor by name. */
+function aeoForCompetitor(competitor) {
+	const needle = competitor.toLowerCase();
+	return GEO_AEO_ENTRIES.filter((q) => q.pages.includes("C") && (q.query.toLowerCase().includes(needle) || q.answer.toLowerCase().includes(needle)));
+}
+/**
+* Canonical base URL for the microsite. Keep in sync with SITE.domain in
+* `@/data/site`. Change here when the production domain changes.
+*/
+var BASE_URL = "https://thesocial99reviews.com";
+function absoluteUrl(pathOrUrl) {
+	if (!pathOrUrl) return BASE_URL;
+	if (/^https?:\/\//i.test(pathOrUrl)) return pathOrUrl;
+	return `${BASE_URL}${pathOrUrl.startsWith("/") ? pathOrUrl : `/${pathOrUrl}`}`;
+}
+/**
+* Build the head({ meta, links, scripts }) return shape for a route.
+* Ensures canonical + og:url are absolute and self-referential (see
+* head-meta guidance), and stringifies JSON-LD blocks safely.
+*/
+function buildHead(input) {
+	const canonical = absoluteUrl(input.path);
+	const type = input.type ?? "website";
+	const meta = [
+		{ title: input.title },
+		{
+			name: "description",
+			content: input.description
+		},
+		{
+			property: "og:title",
+			content: input.title
+		},
+		{
+			property: "og:description",
+			content: input.description
+		},
+		{
+			property: "og:type",
+			content: type
+		},
+		{
+			property: "og:url",
+			content: canonical
+		},
+		{
+			name: "twitter:card",
+			content: "summary_large_image"
+		},
+		{
+			name: "twitter:title",
+			content: input.title
+		},
+		{
+			name: "twitter:description",
+			content: input.description
+		}
+	];
+	if (input.keywords && input.keywords.length) meta.push({
+		name: "keywords",
+		content: input.keywords.join(", ")
+	});
+	if (input.image) {
+		const img = absoluteUrl(input.image);
+		meta.push({
+			property: "og:image",
+			content: img
+		});
+		meta.push({
+			name: "twitter:image",
+			content: img
+		});
+	}
+	if (input.robots) meta.push({
+		name: "robots",
+		content: input.robots
+	});
+	const scripts = (input.jsonLd ?? []).map((obj) => ({
+		type: "application/ld+json",
+		children: JSON.stringify(obj)
+	}));
+	return {
+		meta,
+		links: [{
+			rel: "canonical",
+			href: canonical
+		}],
+		scripts
+	};
+}
+var SERVICE_URL = SITE.parentUrl;
+function organizationJsonLd() {
+	return {
+		"@context": "https://schema.org",
+		"@type": "Organization",
+		name: SITE.parentBrand,
+		url: SITE.parentUrl,
+		sameAs: [BASE_URL],
+		description: "Done-for-you social media management for US small businesses from $99/mo. Real human-made content, review-before-publish, no setup fee, no contract.",
+		knowsAbout: SEO_KEYWORDS.filter((k) => k.priority === "High").slice(0, 20).map((k) => k.keyword)
+	};
+}
+function webSiteJsonLd() {
+	return {
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		name: SITE.name,
+		url: BASE_URL,
+		publisher: {
+			"@type": "Organization",
+			name: SITE.parentBrand,
+			url: SITE.parentUrl
+		},
+		inLanguage: "en-US"
+	};
+}
+function serviceJsonLd() {
+	return {
+		"@context": "https://schema.org",
+		"@type": "Service",
+		serviceType: "Social media management",
+		name: `${SITE.parentBrand} — Done-for-you social media management`,
+		provider: {
+			"@type": "Organization",
+			name: SITE.parentBrand,
+			url: SERVICE_URL
+		},
+		areaServed: {
+			"@type": "Country",
+			name: "United States"
+		},
+		audience: {
+			"@type": "BusinessAudience",
+			audienceType: "US small businesses (med spas, salons, restaurants, bars, pet grooming)"
+		},
+		description: "A human-led, done-for-you social media service that plans, creates, and publishes weekly content for US small businesses.",
+		url: absoluteUrl("/the-social-99-review"),
+		keywords: keywordListForPage("H", 15),
+		offers: {
+			"@type": "AggregateOffer",
+			priceCurrency: "USD",
+			lowPrice: PRICING[0].price,
+			highPrice: PRICING[PRICING.length - 1].price,
+			offerCount: PRICING.length,
+			offers: PRICING.map((tier) => ({
+				"@type": "Offer",
+				name: tier.name,
+				price: tier.price,
+				priceCurrency: "USD",
+				priceSpecification: {
+					"@type": "UnitPriceSpecification",
+					price: tier.price,
+					priceCurrency: "USD",
+					referenceQuantity: {
+						"@type": "QuantitativeValue",
+						value: 1,
+						unitCode: "MON"
+					}
+				},
+				availability: "https://schema.org/InStock",
+				url: SITE.trialUrl
+			}))
+		}
+	};
+}
+function breadcrumbJsonLd(items) {
+	return {
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		itemListElement: items.map((it, i) => ({
+			"@type": "ListItem",
+			position: i + 1,
+			name: it.name,
+			item: absoluteUrl(it.path)
+		}))
+	};
+}
+function comparisonItemListJsonLd() {
+	return {
+		"@context": "https://schema.org",
+		"@type": "ItemList",
+		itemListElement: COMPARISONS.map((c, i) => ({
+			"@type": "ListItem",
+			position: i + 1,
+			url: absoluteUrl(`/blog/${c.slug}`),
+			name: c.metaTitle
+		}))
+	};
+}
+function fmt(date) {
+	try {
+		return (/* @__PURE__ */ new Date(date + "T00:00:00Z")).toLocaleDateString("en-US", {
+			year: "numeric",
+			month: "long",
+			day: "numeric",
+			timeZone: "UTC"
+		});
+	} catch {
+		return date;
+	}
+}
+function AuthorByline({ name, role, lastUpdated, methodology }) {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "flex flex-col gap-1 text-sm text-muted-foreground",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "flex flex-wrap items-center gap-x-3 gap-y-1",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+					className: "inline-flex items-center gap-2",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "grid h-7 w-7 place-items-center rounded-full bg-tint text-[11px] font-[650] text-primary",
+							children: name.split(" ").map((n) => n[0]).slice(0, 2).join("")
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "text-ink font-[600]",
+							children: name
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+							className: "text-muted-foreground",
+							children: ["· ", role]
+						})
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+					"aria-hidden": true,
+					className: "text-border",
+					children: "•"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("time", {
+					dateTime: lastUpdated,
+					children: ["Last updated ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						className: "text-ink font-[600]",
+						children: fmt(lastUpdated)
+					})]
+				})
+			]
+		}), methodology && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+			className: "text-xs italic text-muted-foreground",
+			children: methodology
+		})]
+	});
+}
+function ProsConsBox({ title, pros, cons, tone = "us" }) {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-card)]",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h3", {
+			className: "text-base font-[650] text-ink",
+			children: [title, /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+				className: "ml-2 rounded-full px-2 py-0.5 text-[10px] font-[650] uppercase tracking-wider " + (tone === "us" ? "bg-tint text-primary" : "bg-surface text-muted-foreground"),
+				children: tone === "us" ? "Our side" : "Their side"
+			})]
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "mt-4 grid gap-4 sm:grid-cols-2",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "text-xs font-[650] uppercase tracking-wider text-success",
+				children: "Pros"
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+				className: "mt-2 space-y-2",
+				children: pros.map((p) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+					className: "flex items-start gap-2 text-sm text-ink",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Check, {
+						size: 16,
+						className: "mt-0.5 flex-none text-success",
+						strokeWidth: 2.5
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: p })]
+				}, p))
+			})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				className: "text-xs font-[650] uppercase tracking-wider text-muted-foreground",
+				children: "Cons"
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+				className: "mt-2 space-y-2",
+				children: cons.map((c) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+					className: "flex items-start gap-2 text-sm text-muted-foreground",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(X, {
+						size: 16,
+						className: "mt-0.5 flex-none",
+						strokeWidth: 2.5
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: c })]
+				}, c))
+			})] })]
+		})]
+	});
+}
+function TableOfContents({ items }) {
+	const [active, setActive] = (0, import_react.useState)(items[0]?.id ?? "");
+	(0, import_react.useEffect)(() => {
+		if (typeof window === "undefined") return;
+		const obs = new IntersectionObserver((entries) => {
+			const visible = entries.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+			if (visible[0]) setActive(visible[0].target.id);
+		}, {
+			rootMargin: "-96px 0px -60% 0px",
+			threshold: [0, 1]
+		});
+		items.forEach((i) => {
+			const el = document.getElementById(i.id);
+			if (el) obs.observe(el);
+		});
+		return () => obs.disconnect();
+	}, [items]);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
+		"aria-label": "Table of contents",
+		className: "sticky top-24 hidden lg:block",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "text-xs font-[650] uppercase tracking-wider text-muted-foreground",
+			children: "On this page"
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+			className: "mt-3 space-y-1.5 border-l border-border",
+			children: items.map((i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+				href: `#${i.id}`,
+				className: cn("-ml-px block border-l-2 py-1 pl-4 text-sm transition-colors", active === i.id ? "border-primary text-primary font-[600]" : "border-transparent text-muted-foreground hover:text-ink"),
+				children: i.label
+			}) }, i.id))
+		})]
+	});
+}
+function toQA(entries) {
+	return entries.map((e) => ({
+		q: e.query,
+		a: e.answer
+	}));
+}
+function faqPageJsonLd(entries) {
+	return {
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		mainEntity: entries.map((e) => "query" in e ? {
+			q: e.query,
+			a: e.answer
+		} : e).map((f) => ({
+			"@type": "Question",
+			name: f.q,
+			acceptedAnswer: {
+				"@type": "Answer",
+				text: f.a
+			}
+		}))
+	};
+}
+/**
+* Merge on-page FAQs with high-priority AEO questions mapped to a page.
+* De-duplicates on question text (case-insensitive) so we never emit the
+* same Q twice in the FAQPage schema.
+*/
+function mergedFaqsForPage(code, onPage, extra = []) {
+	const aeo = toQA(aeoForPage(code, "High")).concat(toQA(aeoForPage(code, "Med")));
+	const seen = /* @__PURE__ */ new Set();
+	const out = [];
+	for (const item of [
+		...onPage,
+		...extra,
+		...aeo
+	]) {
+		const key = item.q.trim().toLowerCase();
+		if (seen.has(key)) continue;
+		seen.add(key);
+		out.push(item);
+	}
+	return out;
+}
+function mergedFaqsForCompetitor(competitor, onPage) {
+	const aeo = toQA(aeoForCompetitor(competitor));
+	const seen = /* @__PURE__ */ new Set();
+	const out = [];
+	for (const item of [...onPage, ...aeo]) {
+		const key = item.q.trim().toLowerCase();
+		if (seen.has(key)) continue;
+		seen.add(key);
+		out.push(item);
+	}
+	return out;
+}
+//#endregion
+export { webSiteJsonLd as _, TableOfContents as a, buildHead as c, keywordsForCompetitor as d, keywordsForPage as f, serviceJsonLd as g, organizationJsonLd as h, ProsConsBox as i, comparisonItemListJsonLd as l, mergedFaqsForPage as m, BASE_URL as n, absoluteUrl as o, mergedFaqsForCompetitor as p, PRICING as r, breadcrumbJsonLd as s, AuthorByline as t, faqPageJsonLd as u };

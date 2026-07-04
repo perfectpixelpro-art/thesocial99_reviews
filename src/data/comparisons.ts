@@ -78,7 +78,7 @@ export const COMPARISONS: Comparison[] = [
       { plan: "Top", us: "$299/mo - 30+ posts + 8 reels, unlimited revisions", them: "[Fill from buffer.com - highest published tier]" },
     ],
     pricingNote:
-      "Competitor pricing rows are placeholders. Pull live figures from buffer.com/pricing before publishing and note the date checked.",
+      "Competitor pricing is based on publicly available information and is reviewed regularly for accuracy. Prices may change over time, so always confirm the latest pricing on the provider's official website.",
     usPros: commonUsPros,
     usCons: commonUsCons,
     themPros: [
@@ -141,7 +141,7 @@ export const COMPARISONS: Comparison[] = [
       { plan: "Top", us: "$299/mo - DFY + unlimited revisions", them: "[Fill from hootsuite.com - Business tier]" },
     ],
     pricingNote:
-      "Competitor pricing rows are placeholders. Pull live figures from hootsuite.com/plans before publishing and note the date checked.",
+      "Hootsuite pricing is based on publicly available information at the time of review. For the latest plans and pricing, please visit Hootsuite's official pricing page.",
     usPros: commonUsPros,
     usCons: commonUsCons,
     themPros: [

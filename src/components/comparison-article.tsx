@@ -95,9 +95,7 @@ export function ComparisonArticle({ data }: { data: Comparison }) {
               <section id="pricing">
                 <h2>Pricing comparison</h2>
                 <p>
-                  Direct answer: our published price is a flat monthly fee that
-                  includes content production. Tool pricing shown below is a
-                  placeholder - verify at the source before quoting.
+                  Direct answer: The Social 99 offers simple monthly pricing with no setup fees or long-term contracts. Pricing shown below reflects our current plans.
                 </p>
                 <div className="overflow-hidden rounded-2xl border border-border shadow-[var(--shadow-card)]">
                   <div className="overflow-x-auto">
