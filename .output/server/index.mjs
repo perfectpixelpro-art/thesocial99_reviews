@@ -15,82 +15,82 @@ globalThis.__nitro_vite_envs__ = services;
 //#endregion
 //#region #nitro/virtual/public-assets-data
 var public_assets_data_default = {
-	"/assets/blog._slug-CF3MLZOe.js": {
+	"/assets/arrow-right-C9vu6YO4.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"c5-0pSpTiaBNS6tDyONfaKrEjMZVZ4\"",
-		"mtime": "2026-07-04T12:42:38.460Z",
-		"size": 197,
-		"path": "../public/assets/blog._slug-CF3MLZOe.js"
-	},
-	"/robots.txt": {
-		"type": "text/plain; charset=utf-8",
-		"etag": "\"4c-yfPi7pwYsmRCceFmKxzIYrXB32I\"",
-		"mtime": "2026-07-04T12:42:38.654Z",
-		"size": 76,
-		"path": "../public/robots.txt"
-	},
-	"/assets/arrow-right-DLST2m8o.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"a0-mCKcNA8ZaQzDzcVv7gRxZpVn8TY\"",
-		"mtime": "2026-07-04T12:42:38.460Z",
+		"etag": "\"a0-Xw64R3bPWvqDtzfFrjBGTn19/Z4\"",
+		"mtime": "2026-07-04T12:55:41.432Z",
 		"size": 160,
-		"path": "../public/assets/arrow-right-DLST2m8o.js"
-	},
-	"/assets/blog._slug-CVFJ4arI.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"55c-XUQUuVaNCM66NDiBYxsHNjuXwBg\"",
-		"mtime": "2026-07-04T12:42:38.460Z",
-		"size": 1372,
-		"path": "../public/assets/blog._slug-CVFJ4arI.js"
-	},
-	"/assets/blog.index-DlRDOrKO.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"756-In1CeyKidKppcfC8x53JrKjDPNs\"",
-		"mtime": "2026-07-04T12:42:38.460Z",
-		"size": 1878,
-		"path": "../public/assets/blog.index-DlRDOrKO.js"
-	},
-	"/assets/routes-7c8thvdZ.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"3a76-VSJVZUJYkr2EdeOjzrgQk+RagUc\"",
-		"mtime": "2026-07-04T12:42:38.462Z",
-		"size": 14966,
-		"path": "../public/assets/routes-7c8thvdZ.js"
-	},
-	"/assets/comparisons-EqLL4heW.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"1492f-MTaXP48+DUILEzXZITlXXjrWchA\"",
-		"mtime": "2026-07-04T12:42:38.461Z",
-		"size": 84271,
-		"path": "../public/assets/comparisons-EqLL4heW.js"
+		"path": "../public/assets/arrow-right-C9vu6YO4.js"
 	},
 	"/favicon.ico": {
 		"type": "image/vnd.microsoft.icon",
 		"etag": "\"3c2e-VCOfE1LX4NF7DQuTYV+9ZFZv7pI\"",
-		"mtime": "2026-07-04T12:42:38.654Z",
+		"mtime": "2026-07-04T12:55:41.636Z",
 		"size": 15406,
 		"path": "../public/favicon.ico"
 	},
-	"/assets/index-DkFy6yoS.js": {
+	"/robots.txt": {
+		"type": "text/plain; charset=utf-8",
+		"etag": "\"4c-yfPi7pwYsmRCceFmKxzIYrXB32I\"",
+		"mtime": "2026-07-04T12:55:41.636Z",
+		"size": 76,
+		"path": "../public/robots.txt"
+	},
+	"/assets/blog._slug-pCiHluqq.js": {
 		"type": "text/javascript; charset=utf-8",
-		"etag": "\"5eb1d-MLTJPfkf1vm82/szgeisxsr8i4A\"",
-		"mtime": "2026-07-04T12:42:38.459Z",
-		"size": 387869,
-		"path": "../public/assets/index-DkFy6yoS.js"
+		"etag": "\"c5-iAcP8bVqOhh3EPpjQMEAs6vZi8Q\"",
+		"mtime": "2026-07-04T12:55:41.432Z",
+		"size": 197,
+		"path": "../public/assets/blog._slug-pCiHluqq.js"
+	},
+	"/assets/blog.index-D9tQJnID.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"756-VBOxa2P13wnb3h+aP6bBlxUoijc\"",
+		"mtime": "2026-07-04T12:55:41.432Z",
+		"size": 1878,
+		"path": "../public/assets/blog.index-D9tQJnID.js"
+	},
+	"/assets/blog._slug-B2C0F4Vg.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"55c-92xepsDNub6i8UFZTR7NT7fWnW4\"",
+		"mtime": "2026-07-04T12:55:41.432Z",
+		"size": 1372,
+		"path": "../public/assets/blog._slug-B2C0F4Vg.js"
+	},
+	"/assets/routes-C27aAdI7.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"3a76-qWwYlsrwr8/poTbZnumLzZJ3ayo\"",
+		"mtime": "2026-07-04T12:55:41.432Z",
+		"size": 14966,
+		"path": "../public/assets/routes-C27aAdI7.js"
+	},
+	"/assets/comparisons-juijGhWa.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"1499e-Z3kutSQynWXZA1NExhRmExkAXPM\"",
+		"mtime": "2026-07-04T12:55:41.432Z",
+		"size": 84382,
+		"path": "../public/assets/comparisons-juijGhWa.js"
+	},
+	"/assets/the-social-99-review-DwIn5wwx.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"47-iu3uH0z89pk7Hkf1vl+PSLuj2wY\"",
+		"mtime": "2026-07-04T12:55:41.432Z",
+		"size": 71,
+		"path": "../public/assets/the-social-99-review-DwIn5wwx.js"
+	},
+	"/assets/index-DAh_syeS.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"5eb07-9hx6QJnrAqckv67MHDDR83/Wls8\"",
+		"mtime": "2026-07-04T12:55:41.431Z",
+		"size": 387847,
+		"path": "../public/assets/index-DAh_syeS.js"
 	},
 	"/assets/styles-C8RPhs55.css": {
 		"type": "text/css; charset=utf-8",
 		"etag": "\"1494f-Yo2E7apZT55Oc4PKoED3bdhM+Oo\"",
-		"mtime": "2026-07-04T12:42:38.462Z",
+		"mtime": "2026-07-04T12:55:41.432Z",
 		"size": 84303,
 		"path": "../public/assets/styles-C8RPhs55.css"
-	},
-	"/assets/the-social-99-review-Bjx1ZAbS.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"47-gprtYMpOrzLIDMhftjcQhkb3AJM\"",
-		"mtime": "2026-07-04T12:42:38.462Z",
-		"size": 71,
-		"path": "../public/assets/the-social-99-review-Bjx1ZAbS.js"
 	}
 };
 //#endregion

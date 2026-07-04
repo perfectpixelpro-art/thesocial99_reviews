@@ -20,7 +20,7 @@ export const MOATS: Moat[] = [
   {
     icon: Hand,
     title: "Done-for-you, not a tool you operate",
-    body: "You don't log in, schedule, or edit. Our team plans, creates, and posts every week - you approve and get back to running your business.",
+    body: "We handle your social media from start to finish. Our team plans, creates, and publishes content every week while you simply review and approve.",
   },
   {
     icon: Server,

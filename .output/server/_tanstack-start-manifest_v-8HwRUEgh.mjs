@@ -1,0 +1,45 @@
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-8HwRUEgh.js
+var tsrStartManifest = () => ({ routes: {
+	__root__: {
+		filePath: "/Users/utkarsh/Desktop/thesocial99_reviews/src/routes/__root.tsx",
+		children: [
+			"/",
+			"/sitemap.xml",
+			"/the-social-99-review",
+			"/blog/$slug",
+			"/blog/"
+		],
+		preloads: [
+			"/assets/index-DAh_syeS.js",
+			"/assets/comparisons-juijGhWa.js",
+			"/assets/arrow-right-C9vu6YO4.js"
+		],
+		scripts: [{ attrs: {
+			type: "module",
+			async: !0,
+			src: "/assets/index-DAh_syeS.js"
+		} }]
+	},
+	"/": {
+		filePath: "/Users/utkarsh/Desktop/thesocial99_reviews/src/routes/index.tsx",
+		children: void 0,
+		preloads: ["/assets/routes-C27aAdI7.js"]
+	},
+	"/the-social-99-review": {
+		filePath: "/Users/utkarsh/Desktop/thesocial99_reviews/src/routes/the-social-99-review.tsx",
+		children: void 0,
+		preloads: ["/assets/the-social-99-review-DwIn5wwx.js"]
+	},
+	"/blog/$slug": {
+		filePath: "/Users/utkarsh/Desktop/thesocial99_reviews/src/routes/blog.$slug.tsx",
+		children: void 0,
+		preloads: ["/assets/blog._slug-B2C0F4Vg.js", "/assets/blog._slug-pCiHluqq.js"]
+	},
+	"/blog/": {
+		filePath: "/Users/utkarsh/Desktop/thesocial99_reviews/src/routes/blog.index.tsx",
+		children: void 0,
+		preloads: ["/assets/blog.index-D9tQJnID.js"]
+	}
+} });
+//#endregion
+export { tsrStartManifest };

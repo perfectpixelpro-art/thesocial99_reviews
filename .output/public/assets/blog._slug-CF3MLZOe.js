@@ -1,1 +1,0 @@
-import{h as e}from"./comparisons-EqLL4heW.js";import{n as t,t as n}from"./index-DkFy6yoS.js";var r=e();function i(){let{data:e}=n.useLoaderData();return(0,r.jsx)(t,{data:e})}export{i as component};

@@ -1,0 +1,1 @@
+import{h as e}from"./comparisons-juijGhWa.js";import{n as t,t as n}from"./index-DAh_syeS.js";var r=e();function i(){let{data:e}=n.useLoaderData();return(0,r.jsx)(t,{data:e})}export{i as component};
