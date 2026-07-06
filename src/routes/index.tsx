@@ -15,6 +15,7 @@ import { COMPARISONS } from "@/data/comparisons";
 import { SITE } from "@/data/site";
 import { ArrowRight, TrendingUp, Users } from "lucide-react";
 
+
 const TITLE =
   "Honest reviews of The Social 99 — done-for-you social media from $99/mo";
 const DESC =
@@ -226,12 +227,16 @@ function Home() {
       <section className="container-page mt-20">
         <CTABanner pageSlug="home" />
       </section>
-
-      <div className="pb-10 pt-20 text-center">
-        <CTAButton action="trial" pageSlug="home-footer">
-          See Pricing
-        </CTAButton>
-      </div>
+<div className="pb-10 pt-20 text-center">
+  <a
+    href="https://thesocial99.com/pricing"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center justify-center rounded-xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
+  >
+    See Pricing
+  </a>
+</div>
     </SiteShell>
   );
 }
