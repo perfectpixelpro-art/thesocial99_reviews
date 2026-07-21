@@ -109,6 +109,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "theme-color", content: "#013186" },
       { property: "og:site_name", content: "The Social 99 Reviews" },
       { property: "og:type", content: "website" },
+      {
+        name: "google-site-verification",
+        content: "UheCaoHxvQm-lzYf3eo1hKoV4VoPVNLZpzPaWuyJNcI",
+      },
       { property: "og:title", content: SITE_TITLE },
       { property: "og:description", content: SITE_DESC },
       { name: "twitter:card", content: "summary_large_image" },
